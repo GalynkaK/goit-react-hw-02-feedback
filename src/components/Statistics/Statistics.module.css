@@ -1,0 +1,22 @@
+.list{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+
+}
+
+.item{
+  font-size: medium;
+  font-weight: 600;
+}
+
+.item:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.item:last-child{
+  font-size: 30px;
+  font-weight: bold;
+  color: darkslategray;
+  margin-top: 35px;
+}

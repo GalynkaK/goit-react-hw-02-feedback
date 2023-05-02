@@ -1,0 +1,15 @@
+.button{
+  display: inline-flex;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.button:focus, .button:active, .button:hover{
+  color: cornflowerblue;
+}
+
+.button:nth-of-type(even){
+  margin: auto 5rem;
+}
